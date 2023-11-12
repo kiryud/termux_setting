@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    init.sh                                            :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: jijeong <jijeong@student.42seoul.kr>       +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/11/13 01:10:19 by jijeong           #+#    #+#              #
-#    Updated: 2023/11/13 02:20:13 by jijeong          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 #! /bin/bash
 
 # 안드로이드 저장공간 접근 권한 획득
@@ -30,4 +18,10 @@ apt update
 apt upgrade -y
 apt install proot-distro
 
+# 42header clone
+echo "42header clone"
+git clone git@github.com:42Paris/42header.git
 
+# norminette clone
+echo "norminette clone"
+git clone git@github.com:42Paris/norminette-v3.git
