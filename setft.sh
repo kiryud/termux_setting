@@ -11,6 +11,7 @@ apk install -y vim openssh aptitude
 # 42header clone
 echo "42header clone"
 git clone git@github.com:42Paris/42header.git
+cp 42header/plugin/stdheader.vim ~/.vim/plugin/stdheader.vim
 
 # norminette
 echo "install norminette"
