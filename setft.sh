@@ -6,7 +6,7 @@ apt update && apk upgrate -y
 
 # 기본적인 도구 설치
 echo "기본적인 도구 설치 vim openssh aptitude python3"
-apt install -y vim openssh aptitude python3
+apt install -y vim aptitude python3
 
 # 42header clone
 echo "42header clone"
