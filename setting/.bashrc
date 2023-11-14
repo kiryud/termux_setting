@@ -18,6 +18,6 @@ alias l='ls $LS_OPTIONS -lA'
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-
+alias norminette="python3 -m norminette"
 export USER=jijeong
 export MAIL=$USER@student.42seoul.kr
