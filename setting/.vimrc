@@ -1,6 +1,3 @@
-call plug#begin('~/.vim/plugged')
-	Plug 'pbondoer/vim-42header'
-call plug#end()
 
 if has("syntax")
 	syntax on
