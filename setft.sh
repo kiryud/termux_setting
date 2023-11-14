@@ -5,7 +5,7 @@ echo "apt 업데이트 및 업그레이드"
 apt update && apk upgrate -y
 
 # 기본적인 도구 설치
-echo "기본적인 도구 설치 vim openssh aptitude python3"
+echo "기본적인 도구 설치 vim aptitude make cmake python3.9"
 apt install -y vim aptitude make cmake python3.9
 
 # 기본적인 세팅 복사
