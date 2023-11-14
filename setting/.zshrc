@@ -1,3 +1,5 @@
+# 42 norminette setting
+alias norminette="python3 -m norminette"
 
 # 42header setting
 export USER='jijeong'
