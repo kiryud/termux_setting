@@ -18,6 +18,6 @@ alias l='ls $LS_OPTIONS -lA'
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-alias norm="python3 -m venv NORM ; source NORM/bin/activate ; pip install norminette ; norminette ; deactivate ; rm -fr NORM"
+alias norm="python3 -m venv VNORM ; source NORM/bin/activate ; pip install norminette ; norminette ; deactivate ; rm -fr VNORM"
 export USER=jijeong
 export MAIL=$USER@student.42seoul.kr
