@@ -11,10 +11,12 @@ apt install -y vim openssh aptitude python3
 # 42header clone
 echo "42header clone"
 git clone git@github.com:42Paris/42header.git
+mkdir ~/.vim
+mkdir ~/.vim/plugin
 cp 42header/plugin/stdheader.vim ~/.vim/plugin/stdheader.vim
 
 # norminette
 echo "install norminette"
-python3 -m pip install --upgrade norminette
+apt install python3-pip
 python3 -m pip install --upgrade pip setuptools
 python3 -m pip install norminette
