@@ -23,6 +23,6 @@ cp 42header/plugin/stdheader.vim ~/.vim/plugin/stdheader.vim
 # norminette
 echo "install norminette"
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3 get-pip.py --user
+apt install python3-pip
 python3 -m pip install --upgrade pip setuptools
 python3 -m pip install norminette
