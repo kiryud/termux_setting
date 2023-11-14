@@ -18,6 +18,6 @@ alias l='ls $LS_OPTIONS -lA'
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-alias norminette="source NORM/bin/activate ; pip install norminette ; norminette ; deactivate"
+alias norm="source NORM/bin/activate ; pip install norminette ; norminette ; deactivate"
 export USER=jijeong
 export MAIL=$USER@student.42seoul.kr
