@@ -19,6 +19,3 @@ git clone git@github.com:42Paris/42header.git
 mkdir ~/.vim
 mkdir ~/.vim/plugin
 cp 42header/plugin/stdheader.vim ~/.vim/plugin/stdheader.vim
-
-# 42 norminette
-python3 -m venv NORM
