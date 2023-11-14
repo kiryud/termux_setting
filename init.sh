@@ -10,19 +10,8 @@ pkg update && pkg upgrade -y
 
 # 기본적인 도구 설치
 echo "기본적인 도구 설치 vim openssh"
-pkg install -y vim openssh apt aptitude
+pkg install -y vim openssh
 
 # proot-distro 설치
 echo "proot-distro 설치"
-apt update
-apt upgrade -y
-apt install proot-distro
-
-
-# 42header clone
-echo "42header clone"
-git clone git@github.com:42Paris/42header.git
-
-# norminette clone
-echo "norminette clone"
-git clone git@github.com:42Paris/norminette-v3.git
+pkg install proot-distro
