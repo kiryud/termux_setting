@@ -13,8 +13,8 @@ echo "pkg 업데이트 및 업그레이드"
 pkg update && pkg upgrade -y
 
 # 기본적인 도구 설치
-echo "기본적인 도구 설치 vim openssh"
-pkg install -y vim openssh
+echo "기본적인 도구 설치 vim openssh git"
+pkg install -y vim openssh git
 
 # proot-distro 설치
 echo "proot-distro 설치"
