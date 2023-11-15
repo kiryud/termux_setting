@@ -18,6 +18,7 @@ pkg install -y vim openssh git
 
 # 기본적인 세팅 복사
 echo "기본적인 세팅 복사"
+cp setting/.vimrc ~/.vimrc
 
 # proot-distro 설치
 echo "proot-distro 설치"
