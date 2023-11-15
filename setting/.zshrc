@@ -1,5 +1,5 @@
 # 42 norminette setting
-alias norminette="python3 -m norminette"
+alias norm="python3 -m venv VNORM ; source NORM/bin/activate ; pip install norminette ; norminette ; deactivate ; rm -fr VNORM"
 
 # 42header setting
 export USER='jijeong'
