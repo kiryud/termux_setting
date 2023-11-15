@@ -16,6 +16,9 @@ pkg update && pkg upgrade -y
 echo "기본적인 도구 설치 vim openssh git"
 pkg install -y vim openssh git
 
+# 기본적인 세팅 복사
+echo "기본적인 세팅 복사"
+
 # proot-distro 설치
 echo "proot-distro 설치"
 pkg install proot-distro
