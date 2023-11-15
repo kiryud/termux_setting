@@ -1,4 +1,3 @@
-
 if has("syntax")
 	syntax on
 endif
@@ -15,7 +14,6 @@ set title
 set hlsearch
 set incsearch
 set noswapfile
-
 
 let g:hdr42user = 'jijeong'
 let g:hdr42mail = 'jijeong@student.42seoul.kr'
